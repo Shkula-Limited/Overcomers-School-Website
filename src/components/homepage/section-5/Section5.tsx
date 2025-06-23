@@ -80,17 +80,30 @@ type TestimonyCardProps = {
 const TestimonyCard = ({handleClick, testimony, testifierName, testifierRole, testifierImage}: TestimonyCardProps) => {
     return (
         <div className="w-full mx-auto space-y-2 max-w-[311px] md:w-4/5 md:max-w-[946px] pb-20">
-                <Title />
+                <Title testifierRole={testifierRole} />
                 <Content handleClick={handleClick} testimony={testimony} testifierName={testifierName} testifierRole={testifierRole} testifierImage={testifierImage} />
         </div>
     )
 }
 
-const Title = () => {
+const Title = ({testifierRole}: {testifierRole: string}) => {
+    const isTeacher = testifierRole === 'Principal' || testifierRole === 'Proprietress'
+    const isParent = testifierRole === 'Parent'
     return (
         <div className="w-max pr-1 md:pr-9 flex flex-col">
             <span className="montserrat text-[10px] md:text-[18px] leading-[190%] tracking-normal text-[#B0B0C0]">TOP STUDYING</span>
-            <span className="montserrat font-semibold text-sm md:text-[32px] md3:text-[40px] leading-[130%] tracking-normal text-[#181B32]">Our students say</span>
+            <span className="montserrat font-semibold text-sm md:text-[32px] md3:text-[40px] leading-[130%] tracking-normal text-[#181B32]">
+                Our {` `}
+                {
+                    isParent
+                    ? "parent"
+                    : isTeacher
+                        ? "teacher"
+                        : "student"
+
+                }
+                {` `} says
+            </span>
         </div>
     )
 }

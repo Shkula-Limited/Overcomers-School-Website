@@ -9,7 +9,7 @@
 }
 
 .grid-figure {
-    @apply w-full bg-gray-400 min-h-[60%] max-h-full transition-all duration-500 overflow-hidden
+    @apply w-full aspect-[1076/1435] bg-gray-400 min-h-[60%] max-h-full transition-all duration-500 overflow-hidden
     
 }
 

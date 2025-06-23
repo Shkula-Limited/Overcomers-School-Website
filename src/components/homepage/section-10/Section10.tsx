@@ -3,13 +3,13 @@ import { shkulaOverview } from "@/data"
 const Section10 = () => {
   return (
     <section className="bg-shkula-primary">
-        <div className="mycontainer1 py-5 flex flex-col gap-3 md:gap-6 md:flex-row md:justify-between">
+        <div className="mycontainer1 py-3 flex flex-col gap-3 md:gap-6 md:flex-row md:justify-between">
 
             {/* logo & description */}
             <div className="md:w-[60%]">
                 <a href="https://shkula.com">
-                    <figure className="w-max mx-auto mb-3 sm:mb-4 md:mx-0 md:mb-5">
-                        <img src="/ShkulaLogoWhite.png" alt="" className="w-24 sm:w-32 md:w-44 lg:w-52" />
+                    <figure className="w-max mx-auto mb-3 md:mx-0">
+                        <img src="/ShkulaLogoWhite.png" alt="" className="w-24 sm:w-32" />
                     </figure>
                 </a>
                 <p className="open-sans text-xs sm:text-sm md:text-base text-white">

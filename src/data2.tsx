@@ -1,11 +1,11 @@
 
-export const schoolLogo = 'heroes/school_logo.png'
-export const schoolName = 'Heroes and Heroines College Akure'
+export const schoolLogo = 'school_logo.png'
+export const schoolName = 'HEROES AND HEROINES COLLEGE AKURE'
 export const schoolTagline = 'Building Nations in Partnership with God'
 export const schoolAddress = 'Gloryland Community, Ado - Road, Akure, Ondo State.'
 export const schoolPhoneNumber = '08066076286'
 export const schoolPhoneNumber2 = '08066076286'
-export const schoolEmail = 'heroesandheroinescollegeakure@gmail.com'
+export const schoolEmail = 'example@gmail.com'
 export const schoolSocialMediaLinks = {
     // ensure the social media names are in lowercase
     instagram: "",
@@ -17,29 +17,45 @@ export const schoolSocialMediaLinks = {
 export const certifiedTeachers = '17+'
 export const yearsOld = '12'
 export const numberOfSchools = '1'
-export const latestNewsSectionImage = 'heroes/HE-proprietress-3.png' // section-2-image.png
+export const latestNewsSectionImage = 'P1-861.webp' // section-2-image.png
 
 // change this to a dummy overview of heroes and heroin college
 
 export const schoolOverviewInParagraphs = <>
     <p>
         <span>
-            Having navigated through thick and thin since 2013, after the establishment of Heroes and Heroines' College, glory prase and asoration be unto the Lord Almighty for His faithfulness and sustenance to us.
+            The school commenced operation on 7th of September, 2012 with three teachers. Today we give glory to God, apart from admission into all the arms of the nursery and primary schools, students have been admitted into all the arms of J.S.S 1, 2 and S. S 1, 2 classes.
         </span>
     </p>
     <p>
         <span>
-            The journey started in the year 2010 after the idea to own a school was conceived by Mrs Bamiduro Adebanke and Late Hon Bamiduro Robert Dada, a great pharmacist and politician. The laying blocks commenced up to the last one laid and then roofing, producing a "L" shaped blocks of classrooms.
+            Overcomer school is God's project. We thank God for giving it to us as a symbol of mercy in which he counted us worthy to be the care taker. On different occasions He sent messages to me and my wife about the project of running a school. God divinely ask us to start the school on the 7th September in year 2012 and since then He has been faithful to his covenant and promises. Overcomer schools is God's project which God uses Pastor Isaac Olakanmi Ogunyemi and Lady Evangelist Oluyemisi Ogunyemi to established.
         </span>
     </p>
     <p>
         <span>
-            On the 9th day of September, 2013, the school was opened officially. The school started with about seventeen members of staff; ten teaching staff and seven non-teaching staff. The pioneer principal was Prince Orunduyile Bade F.
+            The Nursery and Primary started with about fourteen pupils and the name of the head teacher we started with is Mrs Omoniyi Damilola Kehinde with two other teachers. The secondary arm started in the school are: to serve the society through education, lay solid foundation for greater achievements provide total and balanced education and to build students who are academically sound and morally upright.
         </span>
     </p>
     <p>
         <span>
-            To facilitate the attainment of our objectives the management and staff of the school: ensures conducive teaching. Learning environment, provides well equipped science laboratories maintaining standard home economics laboratory and well equipped computer lab ensures training and up to date retaining exercise for teachers. 
+            To facilitate the attainment of these objectives the management and staff of the school: ensures conducive teaching. Learning environment, provides well equipped science laboratories maintaining standard home economics laboratory and well equipped computer lab ensures training and up to date retaining exercise for teachers. 
+        </span>
+    </p>
+    <p>
+        <span>
+            The school has grown to having secondary arm and to have school two on our permanent site at sharp corner near FERMA Ado-edition Road, Akure.
+        </span>
+    </p>
+    <p>
+        <span>
+            The Nursery and Primary schools were accredited on we usually observe our Biannual inter house sports. The school has advances technologically.
+        </span>
+    </p>
+    <p>
+        <span>
+            Parent comment <br />
+            school has played a good part in the life of my children morally and academically, I bless God for been part of these wonderful institution           
         </span>
     </p>
 </>
@@ -131,9 +147,7 @@ export const aboutUsImages = [
     'heroes/HE-aboutus-image-1.webp',
     'heroes/HE-aboutus-image-2.webp',
     'heroes/HE-banner-image-3.webp',
-    "heroes/HE-jss-image.webp",
-    'heroes/HE-aboutus-image-2.webp',
-    "heroes/HE-sss-image.webp",
+    '',
     '',
     '',
     // "about-us-img.png",
@@ -169,7 +183,7 @@ export const data1: d1[] = [
         description: "Building Foundations, Shaping Futures. Our junior secondary school equips students with essential knowledge, skills and values for academic excellence."
     },
     {
-        title: "Senior Secondary School",
+        title: "SeniorSecondary School",
         image: "heroes/HE-sss-image.webp",
         description: "Empowering Leaders, Shaping Destiny. Our senior secondary school prepares students for higher education, entrepreneurship and global citizenship."
     }
@@ -186,11 +200,11 @@ export const data2: d1[] = [
     //     image: "/programs-B-img-2.png",
     //     description: "Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
     // },
-    // {
-    //     title: "Sports",
-    //     image: "",
-    //     description: "Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
-    // },
+    {
+        title: "Sports",
+        image: "",
+        description: "Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    },
     // {
     //         title: "World Book Day",
     //         image: "/P2-811.webp",
@@ -206,39 +220,39 @@ export const data2: d1[] = [
             description: "Exploring Nigeria's rich heritage: educational trips, cultural immersion and adventure.",
             image: "heroes/HE-cultural-day.webp"
         },
-        // {
-        //     title: "Career Day",
-        //     image: "",
-        //     description: "Interactive sessions connecting students with professionals, exploring career paths and future opportunities."
-        // },
-        // {
-        //     title: "Student Decide",
-        //     image: "",
-        //     description: "Yearly program empowering students to democratically elect their prefects, developing leadership skills."
-        // }
+        {
+            title: "Career Day",
+            image: "",
+            description: "Interactive sessions connecting students with professionals, exploring career paths and future opportunities."
+        },
+        {
+            title: "Student Decide",
+            image: "",
+            description: "Yearly program empowering students to democratically elect their prefects, developing leadership skills."
+        }
 ]
 
 
 
 export const testimonies = [
     {
-        testimony: "An exceptional school with innovative learning, outstanding curriculum, and dedicated teachers. Its commitment to academic excellence and student well-being makes it a shining example of educational excellence.",
-        testifierName: 'Mr Adejoro Oluwole',
-        testifierRole: 'Principal',
-        testifierImage: 'heroes/HE-principal.webp',
+        testimony: "Student Testimony",
+        testifierName: 'Student Name',
+        testifierRole: 'Primary 2 Student',
+        testifierImage: '',
     },
     {
-        testimony: "Notably, alumni from our basic schools excel as executives and leaders in their respective institutions, showcasing exceptional leadership skills and academic prowess.",
-        testifierName: 'Mrs Bamiduro Adebanke',
-        testifierRole: 'Proprietress',
-        testifierImage: 'heroes/HE-proprietress-1.webp',
+        testimony: "Teacher Testimony",
+        testifierName: 'Teacher Name',
+        testifierRole: 'Teacher',
+        testifierImage: '',
     },
-    // {
-    //     testimony: "Parent Testimony",
-    //     testifierName: 'Parent Name',
-    //     testifierRole: 'Parent',
-    //     testifierImage: '',
-    // },
+    {
+        testimony: "Parent Testimony",
+        testifierName: 'Parent Name',
+        testifierRole: 'Parent',
+        testifierImage: '',
+    },
     // {
     //     testimony: "Notably, alumni from our basic schools excel as executives and leaders in their respective institutions, showcasing exceptional leadership skills, academic prowess and character development.",
     //     testifierName: 'Mrs Ajibulu Modupe Ajanaku',
@@ -264,50 +278,40 @@ export const testimonies = [
 
 
 export const clubData = [
-    {
-      title: "Music and Choir",
-      desc: "Students learn to play musical instruments, sing in a choir, or explore rhythm and sound through various music-making activities. Enhances musical skills, coordination, and teamwork.",
-      image: "heroes/HE-banner-image-6.webp"
-    },
-    {
-        title: "Food and Nutrition",
-        desc: "Students learn food preparation, cooking, and nutrition through hands-on activities and cooking demonstrations. Enhances nutritional knowledge, healthy eating habits, and teamwork.",
-        image: "heroes/HE-food-and-nut.webp"
-    },
+      {
+        title: "Entrepreneurship Training",
+        desc: "Empowering students to innovate, create and manage businesses, fostering financial literacy and entrepreneurial spirit.",
+        image: ""
+      },
+      {
+        title: "Computer Training",
+        desc: "Introduces basic coding and robotics concepts to young students through fun, age-appropriate games and activities. Develops problem-solving and analytical thinking skills.",
+        image: ""
+      },
+      {
+        title: "Debate Club",
+        desc: "Sharpening critical thinking, public speaking and teamwork skills through dynamic debates.",
+        image: ""
+      },
       {
         title: "Sport Teams",
         desc: "Cultivating teamwork, discipline and physical fitness through soccer, basketball, gymnastics and track & field.",
-        image: "heroes/HE-sport-club.webp"
+        image: ""
       },
-    {
-      title: "Dance Club",
-      desc: "An energetic activity where students can learn various dance forms, from ballet to hip-hop. Promotes physical fitness, coordination, and a sense of rhythm.",
-      image: "heroes/HE-dance-club.webp"
-    },
-    //   {
-    //     title: "Entrepreneurship Training",
-    //     desc: "Empowering students to innovate, create and manage businesses, fostering financial literacy and entrepreneurial spirit.",
-    //     image: ""
-    //   },
-    //   {
-    //     title: "Computer Training",
-    //     desc: "Introduces basic coding and robotics concepts to young students through fun, age-appropriate games and activities. Develops problem-solving and analytical thinking skills.",
-    //     image: ""
-    //   },
-    //   {
-    //     title: "Debate Club",
-    //     desc: "Sharpening critical thinking, public speaking and teamwork skills through dynamic debates.",
-    //     image: ""
-    //   },
-    //   {
-    //     title: "Farming",
-    //     desc: "Nurturing environmental awareness, responsibility and sustainability through gardening and agriculture.",
-    //     image: ""
-    //   },
+      {
+        title: "Farming",
+        desc: "Nurturing environmental awareness, responsibility and sustainability through gardening and agriculture.",
+        image: ""
+      },
     // {
     //   title: "Art And Craft Club",
     //   desc: "A creative space where students can explore various forms of art, such as drawing, painting, sculpture, and crafts. Encourages self-expression and fine motor skills.",
     //   image: "section-6-img-1.jpeg"
+    // },
+    // {
+    //   title: "Music and Choir",
+    //   desc: "Students learn to play musical instruments, sing in a choir, or explore rhythm and sound through various music-making activities. Enhances musical skills, coordination, and teamwork.",
+    //   image: "section-6-img-2.jpeg"
     // },
     // {
     //   title: "Sports Teams",
@@ -318,6 +322,11 @@ export const clubData = [
     //   title: "Book Club",
     //   desc: "Encourages a love for reading by discussing books, sharing stories, and participating in reading challenges. Promotes literacy, comprehension, and a lifelong love of literature.",
     //   image: "section-6-img-8.jpeg"
+    // },
+    // {
+    //   title: "Dance Club",
+    //   desc: "An energetic activity where students can learn various dance forms, from ballet to hip-hop. Promotes physical fitness, coordination, and a sense of rhythm.",
+    //   image: "section-6-img-9.jpeg"
     // },
     // {
     //   title: "Coding and Robotics",
@@ -364,7 +373,7 @@ export const howToApplySectionContent = [
   
     "Step 3: Written and Oral Interviews. Showcase personality, skills and academic readiness. Our expert admissions team assesses compatibility, potential and placement.",
   
-    "Personalized Support and Guidance. Our dedicated admissions team provides one-on-one assistance. Contact us: email 'heroesandheroinescollegeakure@gmail.com', phone '08066076286', or visit our office. Inquiries welcomed."
+    "Personalized Support and Guidance. Our dedicated admissions team provides one-on-one assistance. Contact us: instagram '...', email '...', or visit our office. Inquiries welcomed."
   ]
 
 
@@ -431,3 +440,26 @@ export const footerLinksData = [
 
 
 export const shkulaOverview = "SHKULA revolutionizes education by empowering schools, teachers, students, and parents with innovative tools."
+
+
+
+    // {
+    //   name: "Mr Adejoro Oluwole",
+    //   role: "Principal",
+    //   image: "heroes/HE-principal.webp"
+    // },
+    // {
+    //   name: "Mrs Bamiduro Adebanke",
+    //   role: "Proprietress",
+    //   image: "heroes/HE-proprietress-1.webp"
+    // },
+    // {
+    //   name: "Mrs Bamiduro Adebanke",
+    //   role: "Proprietress",
+    //   image: "heroes/HE-proprietress-2.webp"
+    // },
+    // {
+    //   name: "Name",
+    //   role: "Pri. School HM",
+    //   image: "heroes/teacher-1.webp"
+    // },

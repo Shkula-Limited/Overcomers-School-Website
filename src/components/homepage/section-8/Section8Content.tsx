@@ -8,24 +8,24 @@ import Twitter from "@/components/ui/icons/Twitter";
 
 const data = [
     {
-      name: "Tomiwa Adebowale",
-      role: "Primary 1 Class Teacher",
-      image: "section-8-img-2.webp"
+      name: "Mr Adejoro Oluwole",
+      role: "Principal",
+      image: "heroes/teacher-1.webp"
     },
     {
-      name: "Temiloluwa Olatunbosu",
-      role: "Mathematics Teacher",
-      image: "section-8-img-5.webp"
+      name: "Mrs Bamiduro Adebanke",
+      role: "Proprietress",
+      image: "heroes/HE-proprietress-2.webp"
     },
     {
-      name: "Chidinma Nwachukwu",
-      role: "English Teacher",
-      image: "educator3.webp"
+      name: "Mr Adejoro Oluwole",
+      role: "Principal",
+      image: "heroes/HE-principal-2.webp"
     },
     {
-      name: "Ayodele Ogunmola",
-      role: "Primary 3 Class Teacher",
-      image: "educator4.webp"
+      name: "Mrs Bamiduro Adebanke",
+      role: "Proprietress",
+      image: "heroes/HE-proprietress-3.png"
     },
     // {
     //   name: "Kelechi Okafor",
