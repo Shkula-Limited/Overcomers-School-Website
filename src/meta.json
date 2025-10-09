@@ -1,8 +1,8 @@
 {
     "@context": "https://schema.org",
     "@type": "School",
-    "name": "OVERCOMER SCHOOLS",
-    "logo": "schoolLogo.jpeg",
+    "name": "Saint Martins Academy Group of School Akure",
+    "logo": "schoolLogo.png",
     "slogan": "Moral And Academic Excellence",
     "address": {
       "@type": "PostalAddress",

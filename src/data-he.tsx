@@ -1,11 +1,11 @@
 
-export const schoolLogo = 'stmartins/school-logo.png'
-export const schoolName = 'Saint Martins Academy Group of School Akure'
-export const schoolTagline = 'Mentoring Generation Rulers'
-export const schoolAddress = 'Isinigbo Golden Estate'
-export const schoolPhoneNumber = '08035380329'
-export const schoolPhoneNumber2 = '08035380329'
-export const schoolEmail = 'stmartinsacademyakure@gmail.com'
+export const schoolLogo = 'heroes/school_logo.png'
+export const schoolName = 'Heroes and Heroines College Akure'
+export const schoolTagline = 'Building Nations in Partnership with God'
+export const schoolAddress = 'Gloryland Community, Ado - Road, Akure, Ondo State.'
+export const schoolPhoneNumber = '08066076286'
+export const schoolPhoneNumber2 = '08066076286'
+export const schoolEmail = 'heroesandheroinescollegeakure@gmail.com'
 export const schoolSocialMediaLinks = {
     // ensure the social media names are in lowercase
     instagram: "",
@@ -17,7 +17,7 @@ export const schoolSocialMediaLinks = {
 export const certifiedTeachers = '17+'
 export const yearsOld = '12'
 export const numberOfSchools = '1'
-export const latestNewsSectionImage = 'stmartins/SM-proprietor.webp' // section-2-image.png
+export const latestNewsSectionImage = 'heroes/HE-proprietress-3.png' // section-2-image.png
 
 // change this to a dummy overview of heroes and heroin college
 
@@ -29,7 +29,7 @@ export const schoolOverviewInParagraphs = <>
     </p>
     <p>
         <span>
-            The journey started in the year 2010 after the idea to own a school was conceived by Mr Olatunde Martins and Mrs. Martins, a great pharmacist and politician. The laying blocks commenced up to the last one laid and then roofing, producing a "L" shaped blocks of classrooms.
+            The journey started in the year 2010 after the idea to own a school was conceived by Mrs Bamiduro Adebanke and Late Hon Bamiduro Robert Dada, a great pharmacist and politician. The laying blocks commenced up to the last one laid and then roofing, producing a "L" shaped blocks of classrooms.
         </span>
     </p>
     <p>
@@ -45,9 +45,9 @@ export const schoolOverviewInParagraphs = <>
 </>
 
 export const schoolOverview = "Located in Akure, Nigeria, Overcomer Schools is a renowned educational institution dedicated to providing top-notch education from creche to senior secondary school levels. Founded on September 24, 2012, the school's mission is to offer exceptional education services, fostering excellence and superior academic performance."
-export const schoolVision = "Raising leaders, transforming lives: Saint Martins College strives to create a supportive and inclusive environment where students can grow, learn, and thrive."
-export const schoolMission = "We are committed to creating a community that inspires students to reach their full potential, develop their unique talents, and become positive change-makers in their communities. Through academic rigour, mentorship, and experiential learning, we raise leaders who transform lives."
-export const schoolCoreValues = "1. *Leadership*: We develop leaders who are confident, courageous, and compassionate. 2. *Growth*: We support students' personal and academic growth, helping them reach their full potential. 3. *Community*: We build a sense of community that is supportive, inclusive, and collaborative. 4. *Innovation*: We encourage creativity, innovation, and critical thinking."
+export const schoolVision = "Overcomer  School Is Dedicated To Building  Excellence  And Superior  Academic  Performance And  Creating  A Role Model  Future  Leaders"
+export const schoolMission = "Best Qualit Education  Service Provider  With Urge  To Be The Best At All Times; Adding Value To All Concerns:"
+export const schoolCoreValues = "Honesty, Dedication, Faithfulness, Hard work, Love, Discipline, Truthfulness, Joy"
 
 
 export const aboutUsComponent2Data = [
@@ -56,7 +56,7 @@ export const aboutUsComponent2Data = [
         label: "Misson",
         content: <>
             <p>
-                We are committed to creating a community that inspires students to reach their full potential, develop their unique talents, and become positive change-makers in their communities. Through academic rigour, mentorship, and experiential learning, we raise leaders who transform lives.
+                To provide a supportive and inclusive learning environment that fosters academic excellence, personal growth, and social responsibility, preparing students to succeed in an ever-changing world.
             </p>
         </>
     },
@@ -65,7 +65,7 @@ export const aboutUsComponent2Data = [
         label: "Vison",
         content: <>
             <p>
-            Raising leaders, transforming lives: Saint Martins College strives to create a supportive and inclusive environment where students can grow, learn, and thrive.
+            To be a premier college, recognized for its commitment to academic rigor, innovative teaching practices, and the development of well- roundea, compassionate, and globally - minded individuals who make positive impacts in their respective communities.
             </p>
         </>
     },
@@ -74,21 +74,40 @@ export const aboutUsComponent2Data = [
         label: "Core Values",
         content: <>
             <p>
-                <span style={{ fontWeight: 700 }}>Leadership:</span> We develop leaders who are confident, courageous, and compassionate.
+                <span style={{ fontWeight: 700 }}>Respect:</span> We value respect for oneself, others, and the c.v
             </p>
 
             <p>
-                <span style={{ fontWeight: 700 }}>Growth:</span> We support students' personal and academic growth, helping them reach their full potential.
+                <span style={{ fontWeight: 700 }}>Excellence:</span> We strive for cc excellence in academic, extra-curricular, and personal endeavours.
             </p>
 
             <p>
-                <span style={{ fontWeight: 700 }}>Community:</span> We build a sense of community that is supportive, inclusive, and collaborative.
+                <span style={{ fontWeight: 700 }}>Integrity:</span> We act with honesty, transparency, and ethical behaviours.
             </p>
 
             <p>
-                <span style={{ fontWeight: 700 }}>Innovation:</span> We encourage creativity, innovation, and critical thinking.
+                <span style={{ fontWeight: 700 }}>Inclusivity:</span> We embrace diversity, equity, and inclusivity in all aspects of school life.
             </p>
 
+            <p>
+                <span style={{ fontWeight: 700 }}>Creativity:</span> We foster creativity, innovation, and critical thinking.
+            </p>
+
+            <p>
+                <span style={{ fontWeight: 700 }}>Perseverance:</span> We encourage resilience, grit, and determination.
+            </p>
+
+            <p>
+                <span style={{ fontWeight: 700 }}>Collaboration:</span> We value teamwork, communication, and mutual support.
+            </p>
+
+            <p>
+                <span style={{ fontWeight: 700 }}>Empathy:</span> We cultivate compassion, understanding, and kindness towards others.
+            </p>
+
+            <p>
+                <span style={{ fontWeight: 700 }}>Lifelong Learning:</span> We embrace growth mindset and love for learning that extends beyond the classroom.
+            </p>
         </>
     },
 
@@ -96,12 +115,11 @@ export const aboutUsComponent2Data = [
 
 
 export const bannerImages = [
-    'stmartins/SM-banner-image-1.webp',
-    'stmartins/SM-banner-image-2.webp',
-    'stmartins/SM-banner-image-3.webp',
-    'stmartins/SM-banner-image-4.webp',
-    'stmartins/SM-banner-image-5.webp',
-    'stmartins/SM-banner-image-6.webp',
+    'heroes/HE-banner-image-1.webp',
+    'heroes/HE-banner-image-2.webp',
+    'heroes/HE-banner-image-3.webp',
+    'heroes/HE-banner-image-5.webp',
+    'heroes/HE-banner-image-6.webp',
     //     'section-6-img-10.jpeg',
     //     'section-6-img-9.jpeg',
     //     'section-6-img-7.jpeg',
@@ -110,12 +128,12 @@ export const bannerImages = [
 ]
 
 export const aboutUsImages = [
-    'stmartins/SM-banner-image-1.webp',
-    'stmartins/SM-banner-image-2.webp',
-    'stmartins/SM-banner-image-3.webp',
-    'stmartins/SM-banner-image-4.webp',
-    'stmartins/SM-banner-image-5.webp',
-    'stmartins/SM-banner-image-6.webp',
+    'heroes/HE-aboutus-image-1.webp',
+    'heroes/HE-aboutus-image-2.webp',
+    'heroes/HE-banner-image-3.webp',
+    "heroes/HE-jss-image.webp",
+    'heroes/HE-aboutus-image-2.webp',
+    "heroes/HE-sss-image.webp",
     '',
     '',
     // "about-us-img.png",
@@ -147,12 +165,12 @@ export const data1: d1[] = [
     // }
     {
         title: "Junior Secondary School",
-        image: 'stmartins/SM-banner-image-6.webp',
+        image: "heroes/HE-jss-image.webp",
         description: "Building Foundations, Shaping Futures. Our junior secondary school equips students with essential knowledge, skills and values for academic excellence."
     },
     {
         title: "Senior Secondary School",
-        image: 'stmartins/SM-banner-image-5.webp',
+        image: "heroes/HE-sss-image.webp",
         description: "Empowering Leaders, Shaping Destiny. Our senior secondary school prepares students for higher education, entrepreneurship and global citizenship."
     }
 ]
@@ -180,7 +198,7 @@ export const data2: d1[] = [
     //     },
         {
             title: "Cultural Day",
-            image: 'stmartins/SM-banner-image-6.webp',
+            image: "heroes/HE-banner-image-1.webp",
             description: "Embracing diversity, promoting heritage and cultural exchange among students."
         },
         {
@@ -205,15 +223,15 @@ export const data2: d1[] = [
 export const testimonies = [
     {
         testimony: "An exceptional school with innovative learning, outstanding curriculum, and dedicated teachers. Its commitment to academic excellence and student well-being makes it a shining example of educational excellence.",
-        testifierName: 'Mr Olatunde Martins',
+        testifierName: 'Mr Adejoro Oluwole',
         testifierRole: 'Principal',
-        testifierImage: 'public/stmartins/SM-principal.webp',
+        testifierImage: 'heroes/HE-principal.webp',
     },
     {
         testimony: "Notably, alumni from our basic schools excel as executives and leaders in their respective institutions, showcasing exceptional leadership skills and academic prowess.",
-        testifierName: 'Mrs Martins',
+        testifierName: 'Mrs Bamiduro Adebanke',
         testifierRole: 'Proprietress',
-        testifierImage: 'public/stmartins/SM-proprietress.webp',
+        testifierImage: 'heroes/HE-proprietress-1.webp',
     },
     // {
     //     testimony: "Parent Testimony",
@@ -249,22 +267,22 @@ export const clubData = [
     {
       title: "Music and Choir",
       desc: "Students learn to play musical instruments, sing in a choir, or explore rhythm and sound through various music-making activities. Enhances musical skills, coordination, and teamwork.",
-      image: "public/stmartins/SM-music-choir.webp"
+      image: "heroes/HE-banner-image-6.webp"
     },
     {
-        title: "Cultural Arts",
-        desc: "Students learn about cultural Arts and more about their tradictions.",
-        image: "public/stmartins/SM-cultural-arts.webp"
+        title: "Food and Nutrition",
+        desc: "Students learn food preparation, cooking, and nutrition through hands-on activities and cooking demonstrations. Enhances nutritional knowledge, healthy eating habits, and teamwork.",
+        image: "heroes/HE-food-and-nut.webp"
     },
       {
         title: "Sport Teams",
         desc: "Cultivating teamwork, discipline and physical fitness through soccer, basketball, gymnastics and track & field.",
-        image: "public/stmartins/SM-sport.webp"
+        image: "heroes/HE-sport-club.webp"
       },
     {
       title: "Dance Club",
       desc: "An energetic activity where students can learn various dance forms, from ballet to hip-hop. Promotes physical fitness, coordination, and a sense of rhythm.",
-      image: "stmartins/SM-dance-club.webp"
+      image: "heroes/HE-dance-club.webp"
     },
     //   {
     //     title: "Entrepreneurship Training",
@@ -335,7 +353,7 @@ export const clubData = [
 
 
 
-export const admissionsSectionIntro = "Join Saint Martins Academy Group of Schools, where academic excellence seamlessly blends with character development. Discover a nurturing environment fostering holistic growth, innovation and success. Our commitment to exceptional education empowers students to excel academically, socially and personally, preparing them for a bright future."
+export const admissionsSectionIntro = "Join Heroes and Heroines College, where academic excellence seamlessly blends with character development. Discover a nurturing environment fostering holistic growth, innovation and success. Our commitment to exceptional education empowers students to excel academically, socially and personally, preparing them for a bright future."
 
 export const howToApplySectionContent = [
     "Initiate your transformative educational journey with Heroes and Heroines College. Our streamlined, user-friendly admission process ensures a seamless transition.",

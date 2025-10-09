@@ -8,24 +8,24 @@ import Twitter from "@/components/ui/icons/Twitter";
 
 const data = [
     {
-      name: "Mr Adejoro Oluwole",
+      name: "Mr Olatunde Martins",
       role: "Principal",
-      image: "heroes/teacher-1.webp"
+      image: "stmartins/SM-principal.webp"
     },
     {
-      name: "Mrs Bamiduro Adebanke",
+      name: "Mrs Martins",
       role: "Proprietress",
-      image: "heroes/HE-proprietress-2.webp"
+      image: "stmartins/SM-proprietress.webp"
     },
     {
-      name: "Mr Adejoro Oluwole",
+      name: "Mrs. Martins",
       role: "Principal",
-      image: "heroes/HE-principal-2.webp"
+      image: "stmartins/SM-teacher-1.webp"
     },
     {
-      name: "Mrs Bamiduro Adebanke",
+      name: "Mr Olatunde Martins",
       role: "Proprietress",
-      image: "heroes/HE-proprietress-3.png"
+      image: "stmartins/SM-principal.webp"
     },
     // {
     //   name: "Kelechi Okafor",
