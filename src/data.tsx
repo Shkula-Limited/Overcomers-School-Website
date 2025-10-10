@@ -1,8 +1,8 @@
 
-export const schoolLogo = 'heroes/school_logo.png'
-export const schoolName = 'Heroes and Heroines College Akure'
-export const schoolTagline = 'Building Nations in Partnership with God'
-export const schoolAddress = 'Gloryland Community, Ado - Road, Akure, Ondo State.'
+export const schoolLogo = 'royal/school_logo.jpeg'
+export const schoolName = 'Ewaoluwa Royal Schools'
+export const schoolTagline = 'Raising Future Leaders'
+export const schoolAddress = 'Civil Defense Estate, Ijoba Akure.'
 export const schoolPhoneNumber = '08066076286'
 export const schoolPhoneNumber2 = '08066076286'
 export const schoolEmail = 'heroesandheroinescollegeakure@gmail.com'
@@ -17,36 +17,31 @@ export const schoolSocialMediaLinks = {
 export const certifiedTeachers = '17+'
 export const yearsOld = '12'
 export const numberOfSchools = '1'
-export const latestNewsSectionImage = 'heroes/HE-proprietress-3.png' // section-2-image.png
+export const latestNewsSectionImage = 'royal/RY-proprietress.webp' // section-2-image.png
 
 // change this to a dummy overview of heroes and heroin college
 
 export const schoolOverviewInParagraphs = <>
     <p>
         <span>
-            Having navigated through thick and thin since 2013, after the establishment of Heroes and Heroines' College, glory prase and asoration be unto the Lord Almighty for His faithfulness and sustenance to us.
+            It is my pleasure to extend a very warm welcome to you!  Thank you for visiting our website.  We are a mixed, co-educational Christian school for boys and girls from across Nigeria. 
         </span>
     </p>
     <p>
         <span>
-            The journey started in the year 2010 after the idea to own a school was conceived by Mrs Bamiduro Adebanke and Late Hon Bamiduro Robert Dada, a great pharmacist and politician. The laying blocks commenced up to the last one laid and then roofing, producing a "L" shaped blocks of classrooms.
+            Our secondary school, established in 2018 is full boarding and day .. primary school, established in 2015  offers both day and boarding.
         </span>
     </p>
     <p>
         <span>
-            On the 9th day of September, 2013, the school was opened officially. The school started with about seventeen members of staff; ten teaching staff and seven non-teaching staff. The pioneer principal was Prince Orunduyile Bade F.
-        </span>
-    </p>
-    <p>
-        <span>
-            To facilitate the attainment of our objectives the management and staff of the school: ensures conducive teaching. Learning environment, provides well equipped science laboratories maintaining standard home economics laboratory and well equipped computer lab ensures training and up to date retaining exercise for teachers. 
+            The school benefits from a wide range of superb facilities which include  Conducive environment, well ventilated classrooms, Qualified teachers & staffs, well equipped Computer Laboratory, well equipped Science Laboratory, standard Sporting Facilities and recreational facilities which make life at school home away from home.
         </span>
     </p>
 </>
 
-export const schoolOverview = "Located in Akure, Nigeria, Overcomer Schools is a renowned educational institution dedicated to providing top-notch education from creche to senior secondary school levels. Founded on September 24, 2012, the school's mission is to offer exceptional education services, fostering excellence and superior academic performance."
-export const schoolVision = "Overcomer  School Is Dedicated To Building  Excellence  And Superior  Academic  Performance And  Creating  A Role Model  Future  Leaders"
-export const schoolMission = "Best Qualit Education  Service Provider  With Urge  To Be The Best At All Times; Adding Value To All Concerns:"
+export const schoolOverview = "Our secondary school, established in 2018 is full boarding and day .. primary school, established in 2015  offers both day and boarding. The school benefits from a wide range of superb facilities which include  Conducive environment, well ventilated classrooms, Qualified teachers & staffs"
+export const schoolVision = "Our vision is to cultivate a community of curious, creative, and compassionate learners who excel academically and make a positive impact in the world. "
+export const schoolMission = "Our mission is to lead holistic, inclusive, innovative world-class education in Nigeria For this reason, we have adopted different approaches and tools that make learning enjoyable for our students. "
 export const schoolCoreValues = "Honesty, Dedication, Faithfulness, Hard work, Love, Discipline, Truthfulness, Joy"
 
 
@@ -115,11 +110,12 @@ export const aboutUsComponent2Data = [
 
 
 export const bannerImages = [
-    'heroes/HE-banner-image-1.webp',
-    'heroes/HE-banner-image-2.webp',
-    'heroes/HE-banner-image-3.webp',
-    'heroes/HE-banner-image-5.webp',
-    'heroes/HE-banner-image-6.webp',
+    'royal/RY-banner-image-1.webp',
+    'royal/RY-banner-image-2.webp',
+    'royal/RY-banner-image-3.webp',
+    'royal/RY-banner-image-4.webp',
+    'royal/RY-banner-image-5.webp',
+    'royal/RY-banner-image-3.webp',
     //     'section-6-img-10.jpeg',
     //     'section-6-img-9.jpeg',
     //     'section-6-img-7.jpeg',
@@ -128,12 +124,12 @@ export const bannerImages = [
 ]
 
 export const aboutUsImages = [
-    'heroes/HE-aboutus-image-1.webp',
-    'heroes/HE-aboutus-image-2.webp',
-    'heroes/HE-banner-image-3.webp',
-    "heroes/HE-jss-image.webp",
-    'heroes/HE-aboutus-image-2.webp',
-    "heroes/HE-sss-image.webp",
+    'royal/RY-banner-image-1.webp',
+    'royal/RY-banner-image-2.webp',
+    'royal/RY-banner-image-3.webp',
+    'royal/RY-banner-image-4.webp',
+    'royal/RY-banner-image-5.webp',
+    'royal/RY-banner-image-3.webp',
     '',
     '',
     // "about-us-img.png",

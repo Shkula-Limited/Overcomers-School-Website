@@ -1,6 +1,6 @@
 
-export const schoolLogo = 'school_logo.png'
-export const schoolName = 'HEROES AND HEROINES COLLEGE AKURE'
+export const schoolLogo = 'school_logo.jpeg'
+export const schoolName = 'Ewaoluwa Royal Schools'
 export const schoolTagline = 'Building Nations in Partnership with God'
 export const schoolAddress = 'Gloryland Community, Ado - Road, Akure, Ondo State.'
 export const schoolPhoneNumber = '08066076286'
