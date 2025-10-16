@@ -2,9 +2,9 @@
 export const schoolLogo = 'royal/school_logo.jpeg'
 export const schoolName = 'Ewaoluwa Royal Schools'
 export const schoolTagline = 'Raising Future Leaders'
-export const schoolAddress = 'Civil Defense Estate, Ijoba Akure.'
-export const schoolPhoneNumber = '08066076286'
-export const schoolPhoneNumber2 = '08066076286'
+export const schoolAddress = 'Block C, Plot 1 Civil Defense Estate. IGOBA AKURE North. Ondo State Nigeria'
+export const schoolPhoneNumber = '09036900465'
+export const schoolPhoneNumber2 = '08118570108'
 export const schoolEmail = 'heroesandheroinescollegeakure@gmail.com'
 export const schoolSocialMediaLinks = {
     // ensure the social media names are in lowercase
@@ -14,10 +14,10 @@ export const schoolSocialMediaLinks = {
     linkedIn: "",
 }
 
-export const certifiedTeachers = '17+'
-export const yearsOld = '12'
-export const numberOfSchools = '1'
-export const latestNewsSectionImage = 'royal/RY-proprietress.webp' // section-2-image.png
+export const certifiedTeachers = '32+'
+export const yearsOld = '10'
+export const numberOfSchools = '2'
+export const latestNewsSectionImage = 'royal/royal-admission-image.webp' // section-2-image.png
 
 // change this to a dummy overview of heroes and heroin college
 
@@ -110,12 +110,11 @@ export const aboutUsComponent2Data = [
 
 
 export const bannerImages = [
-    'royal/RY-banner-image-1.webp',
-    'royal/RY-banner-image-2.webp',
-    'royal/RY-banner-image-3.webp',
-    'royal/RY-banner-image-4.webp',
-    'royal/RY-banner-image-5.webp',
-    'royal/RY-banner-image-3.webp',
+    'royal/royal-banner-image-1.webp',
+    'royal/royal-banner-image-2.webp',
+    'royal/royal-banner-image-3.webp',
+    'royal/royal-banner-image-4.webp',
+    'royal/royal-banner-image-5.webp',
     //     'section-6-img-10.jpeg',
     //     'section-6-img-9.jpeg',
     //     'section-6-img-7.jpeg',
@@ -124,14 +123,11 @@ export const bannerImages = [
 ]
 
 export const aboutUsImages = [
-    'royal/RY-banner-image-1.webp',
-    'royal/RY-banner-image-2.webp',
-    'royal/RY-banner-image-3.webp',
-    'royal/RY-banner-image-4.webp',
-    'royal/RY-banner-image-5.webp',
-    'royal/RY-banner-image-3.webp',
-    '',
-    '',
+    'royal/royal-biology-lab.webp',
+    'royal/royal-physics-lab.webp',
+    'royal/royal-school-library.webp',
+    'royal/royal-sick-bay.webp',
+    'royal/royal-front-view-academic-building.webp',
     // "about-us-img.png",
     // "section-2-image-2.png",
 ]
@@ -150,23 +146,23 @@ export const data1: d1[] = [
     //     description: "Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
     // },
     // {
-    //     title: "Middle School",
-    //     image: "/programs-A-img-2.png",
-    //     description: "Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    //     title: "Nursery School",
+    //     image: "royal/royal-nursery-school.webp",
+    //     description: "Where early learning begins with care. Our nursery school provides a safe, fun, and nurturing environment that supports the growth and development of every child."
     // },
-    // {
-    //     title: "High School",
-    //     image: "/programs-A-img-3.png",
-    //     description: "Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
-    // }
+    {
+        title: "Primary School",
+        image: "royal/royal-primary-school.webp",
+        description: "Building a strong foundation for learning. Our primary school nurtures young minds through a balanced curriculum, creativity, and values-driven education."
+    },
     {
         title: "Junior Secondary School",
-        image: "heroes/HE-jss-image.webp",
+        image: "royal/royal-junior-secondary-school.webp",
         description: "Building Foundations, Shaping Futures. Our junior secondary school equips students with essential knowledge, skills and values for academic excellence."
     },
     {
         title: "Senior Secondary School",
-        image: "heroes/HE-sss-image.webp",
+        image: "royal/royal-senior-secondary-school.webp",
         description: "Empowering Leaders, Shaping Destiny. Our senior secondary school prepares students for higher education, entrepreneurship and global citizenship."
     }
 ]
@@ -194,13 +190,13 @@ export const data2: d1[] = [
     //     },
         {
             title: "Cultural Day",
-            image: "heroes/HE-banner-image-1.webp",
-            description: "Embracing diversity, promoting heritage and cultural exchange among students."
+            image: "royal/royal-cultural-day.webp",
+            description: "An immersive celebration where students experience and appreciate different cultures through performances, food, and activities."
         },
         {
             title: "Excursion",
-            description: "Exploring Nigeria's rich heritage: educational trips, cultural immersion and adventure.",
-            image: "heroes/HE-cultural-day.webp"
+            description: "Bringing learning to life with exciting field trips that connect students to Nigeria’s history, nature, and communities.",
+            image: "royal/royal-excursion.webp"
         },
         // {
         //     title: "Career Day",
@@ -218,16 +214,22 @@ export const data2: d1[] = [
 
 export const testimonies = [
     {
-        testimony: "An exceptional school with innovative learning, outstanding curriculum, and dedicated teachers. Its commitment to academic excellence and student well-being makes it a shining example of educational excellence.",
-        testifierName: 'Mr Adejoro Oluwole',
-        testifierRole: 'Principal',
-        testifierImage: 'heroes/HE-principal.webp',
+        testimony: "My child thrived at this school! The teachers are caring and the curriculum is engaging. I'm so grateful for the foundation they've built",
+        testifierName: 'Mrs Apta',
+        testifierRole: 'Parent',
+        testifierImage: 'royal/royal-teacher-1.webp',
     },
     {
-        testimony: "Notably, alumni from our basic schools excel as executives and leaders in their respective institutions, showcasing exceptional leadership skills and academic prowess.",
-        testifierName: 'Mrs Bamiduro Adebanke',
+        testimony: "The school's emphasis on character development has been amazing. My child's confidence and kindness have grown exponentially. We're so proud!",
+        testifierName: 'Mr. Akeni',
         testifierRole: 'Proprietress',
-        testifierImage: 'heroes/HE-proprietress-1.webp',
+        testifierImage: 'royal/royal-proprietress.webp',
+    },
+    {
+        testimony: "The school's support system is incredible. They truly care about each child's well-being and success. We've seen significant improvement in my child's academics and attitude.",
+        testifierName: 'Mr. Fasae',
+        testifierRole: 'Parent',
+        testifierImage: 'royal/royal-teacher-1.webp',
     },
     // {
     //     testimony: "Parent Testimony",
@@ -261,24 +263,24 @@ export const testimonies = [
 
 export const clubData = [
     {
-      title: "Music and Choir",
-      desc: "Students learn to play musical instruments, sing in a choir, or explore rhythm and sound through various music-making activities. Enhances musical skills, coordination, and teamwork.",
-      image: "heroes/HE-banner-image-6.webp"
+      title: "Tailoring",
+      desc: "Students master the art of tailoring, learning sewing techniques and garment design while expressing creativity.",
+      image: "royal/royal-tailoring-department.webp"
     },
     {
-        title: "Food and Nutrition",
-        desc: "Students learn food preparation, cooking, and nutrition through hands-on activities and cooking demonstrations. Enhances nutritional knowledge, healthy eating habits, and teamwork.",
-        image: "heroes/HE-food-and-nut.webp"
+        title: "Shoe Making",
+        desc: "Students craft shoes, gaining hands-on skills in design, construction, and craftsmanship.",
+        image: "royal/royal-shoe-making-department.webp"
     },
       {
         title: "Sport Teams",
-        desc: "Cultivating teamwork, discipline and physical fitness through soccer, basketball, gymnastics and track & field.",
-        image: "heroes/HE-sport-club.webp"
+        desc: "Building teamwork and fitness, students engage in soccer, basketball, and athletics to develop discipline and sportsmanship.",
+        image: "royal/royal-sport.webp"
       },
     {
-      title: "Dance Club",
-      desc: "An energetic activity where students can learn various dance forms, from ballet to hip-hop. Promotes physical fitness, coordination, and a sense of rhythm.",
-      image: "heroes/HE-dance-club.webp"
+      title: "Information Technology",
+      desc: "Students explore technology, learning programming, digital tools, and problem-solving skills for the future.",
+      image: "royal/royal-computer-room.webp"
     },
     //   {
     //     title: "Entrepreneurship Training",
