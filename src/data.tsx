@@ -1,15 +1,17 @@
 
+
+export const viewResultLink = ''  // "https://reportcard.shkula.com?referrer=https://overcomers-school-website.vercel.app"
 export const schoolLogo = 'royal/school_logo.jpeg'
 export const schoolName = 'Ewaoluwa Royal Schools'
 export const schoolTagline = 'Raising Future Leaders'
 export const schoolAddress = 'Block C, Plot 1 Civil Defense Estate. IGOBA AKURE North. Ondo State Nigeria'
 export const schoolPhoneNumber = '09036900465'
 export const schoolPhoneNumber2 = '08118570108'
-export const schoolEmail = '--no email attached--'
+export const schoolEmail = ''
 export const schoolSocialMediaLinks = {
     // ensure the social media names are in lowercase
     instagram: "",
-    facebook: "",
+    facebook: "https://web.facebook.com/people/Ewaoluwa-Royal-SchoolsIgoba-Akure/61553014534607/",
     twitter: "",
     linkedIn: "",
 }
@@ -19,12 +21,11 @@ export const yearsOld = '10'
 export const numberOfSchools = '2'
 export const latestNewsSectionImage = 'royal/royal-admission-image.webp' // section-2-image.png
 
-// change this to a dummy overview of heroes and heroin college
 
 export const schoolOverviewInParagraphs = <>
     <p>
         <span>
-            It is my pleasure to extend a very warm welcome to you!  Thank you for visiting our website.  We are a mixed, co-educational Christian school for boys and girls from across Nigeria. 
+            It is my pleasure to extend a very warm welcome to you! Thank you for visiting our website. We are a mixed, co-educational Christian school for boys and girls from across Nigeria. 
         </span>
     </p>
     <p>
@@ -364,6 +365,51 @@ export const howToApplySectionContent = [
   
     `Personalized Support and Guidance. Our dedicated admissions team provides one-on-one assistance. Contact us: email '${schoolEmail}', phone '${schoolPhoneNumber}', or visit our office. Inquiries welcomed.`
   ]
+
+
+
+export const educatorsData = [
+    {
+      name: "Mr Ayodele Micheal",
+      role: "ICT Teacher",
+      image: "royal/royal-teacher-2.webp"
+    },
+    {
+      name: "Mrs Y Y",
+      role: "Proprietress",
+      image: "royal/royal-proprietress.webp"
+    },
+    {
+      name: "Mrs Apta",
+      role: "Teacher",
+      image: "royal/royal-teacher-1.webp"
+    },
+    {
+      name: "Mrs Y Y",
+      role: "Proprietress",
+      image: "royal/royal-proprietress.webp"
+    },
+    // {
+    //   name: "Kelechi Okafor",
+    //   role: "Primary 5 Class Teacher",
+    //   image: "section-8-img-3.png"
+    // },
+    // {
+    //   name: "Olumide Adedayo",
+    //   role: "Physical Education Teacher",
+    //   image: "section-8-img-11.jpeg"
+    // },
+    // {
+    //   name: "Ngozi Chukwuma",
+    //   role: "Fine Arts Teacher",
+    //   image: "section-8-img-10.jpeg"
+    // },
+    // {
+    //   name: "Samuel Abiodun",
+    //   role: "Music Teacher",
+    //   image: "section-8-img-8.jpeg"
+    // }
+  ];
 
 
 

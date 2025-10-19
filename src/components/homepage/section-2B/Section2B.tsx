@@ -1,3 +1,4 @@
+import { viewResultLink } from "@/data"
 import { ArrowRight } from "lucide-react"
 
 const Section2B = () => {
@@ -6,7 +7,7 @@ const Section2B = () => {
             <div className="my-14 flex flex-col items-center justify-center text-center gap-3">
                 <h2 className="poppins text-2xl sm:text-3xl md:text-48-auto font-semibold text-white">Online Result Checker</h2>
                 <a 
-                  href="https://reportcard.shkula.com?referrer=https://overcomers-school-website.vercel.app"
+                  href={viewResultLink}
                   className="flex items-center gap-2 py-5 px-10 sm:px-14 bg-white rounded-32px shadow-[0px_2px_4px_rgba(40,41,61,0.04),_0px_8px_16px_rgba(96,97,112,0.16)] font-semibold">
                     <span className="text-shkula-primary text-xs md:text-sm">
                         View Your

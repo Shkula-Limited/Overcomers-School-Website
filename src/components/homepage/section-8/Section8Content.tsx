@@ -4,50 +4,7 @@ import Facebook from "@/components/ui/icons/Facebook";
 import styles from "./Section8Content.module.css"
 import LinkedIn from "@/components/ui/icons/LinkedIn";
 import Twitter from "@/components/ui/icons/Twitter";
-
-
-const data = [
-    {
-      name: "Mr Ayodele Micheal",
-      role: "ICT Teacher",
-      image: "royal/royal-teacher-1.webp"
-    },
-    {
-      name: "Mrs Y Y",
-      role: "Proprietress",
-      image: "royal/royal-proprietress.webp"
-    },
-    {
-      name: "Mrs Apta",
-      role: "Teacher",
-      image: "royal/royal-teacher-1.webp"
-    },
-    {
-      name: "Mrs Y Y",
-      role: "Proprietress",
-      image: "royal/royal-proprietress.webp"
-    },
-    // {
-    //   name: "Kelechi Okafor",
-    //   role: "Primary 5 Class Teacher",
-    //   image: "section-8-img-3.png"
-    // },
-    // {
-    //   name: "Olumide Adedayo",
-    //   role: "Physical Education Teacher",
-    //   image: "section-8-img-11.jpeg"
-    // },
-    // {
-    //   name: "Ngozi Chukwuma",
-    //   role: "Fine Arts Teacher",
-    //   image: "section-8-img-10.jpeg"
-    // },
-    // {
-    //   name: "Samuel Abiodun",
-    //   role: "Music Teacher",
-    //   image: "section-8-img-8.jpeg"
-    // }
-  ];
+import { educatorsData } from "@/data";
   
 
 
@@ -55,7 +12,7 @@ const Section8Content = () => {
   return (
     <div className={`${styles['grid-container']}`}>
         {
-            data.map(
+            educatorsData.map(
                 (item, index) => <GridItem key={index} name={item.name} role={item.role} image={item.image} extraStyle={index===3 ? 'md:col-start-2 lg:col-auto' : ''} />
             )
         }
