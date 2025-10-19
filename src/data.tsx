@@ -5,7 +5,7 @@ export const schoolTagline = 'Raising Future Leaders'
 export const schoolAddress = 'Block C, Plot 1 Civil Defense Estate. IGOBA AKURE North. Ondo State Nigeria'
 export const schoolPhoneNumber = '09036900465'
 export const schoolPhoneNumber2 = '08118570108'
-export const schoolEmail = 'heroesandheroinescollegeakure@gmail.com'
+export const schoolEmail = '--no email attached--'
 export const schoolSocialMediaLinks = {
     // ensure the social media names are in lowercase
     instagram: "",
@@ -351,18 +351,18 @@ export const clubData = [
 
 
 
-export const admissionsSectionIntro = "Join Heroes and Heroines College, where academic excellence seamlessly blends with character development. Discover a nurturing environment fostering holistic growth, innovation and success. Our commitment to exceptional education empowers students to excel academically, socially and personally, preparing them for a bright future."
+export const admissionsSectionIntro = `Join ${schoolName}, where academic excellence seamlessly blends with character development. Discover a nurturing environment fostering holistic growth, innovation and success. Our commitment to exceptional education empowers students to excel academically, socially and personally, preparing them for a bright future.`
 
 export const howToApplySectionContent = [
-    "Initiate your transformative educational journey with Heroes and Heroines College. Our streamlined, user-friendly admission process ensures a seamless transition.",
+    `Initiate your transformative educational journey with ${schoolName}. Our streamlined, user-friendly admission process ensures a seamless transition.`,
   
-    "Step 1: Obtain Admission Forms. Collect forms from our school premises or download them from our website. For assistance, contact our admissions team via phone or email.",
+    "Step 1: Obtain Admission Forms. Collect forms from our school premises. For assistance, contact our admissions team via phone or email.",
   
     "Step 2: Complete and Submit Forms. Provide accurate, detailed information. Attach required documents (birth certificate, report cards, ID). Ensure timely submission.",
   
     "Step 3: Written and Oral Interviews. Showcase personality, skills and academic readiness. Our expert admissions team assesses compatibility, potential and placement.",
   
-    "Personalized Support and Guidance. Our dedicated admissions team provides one-on-one assistance. Contact us: email 'heroesandheroinescollegeakure@gmail.com', phone '08066076286', or visit our office. Inquiries welcomed."
+    `Personalized Support and Guidance. Our dedicated admissions team provides one-on-one assistance. Contact us: email '${schoolEmail}', phone '${schoolPhoneNumber}', or visit our office. Inquiries welcomed.`
   ]
 
 

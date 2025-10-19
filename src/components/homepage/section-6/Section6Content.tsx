@@ -12,7 +12,7 @@ const Section6Content = () => {
         <SpacingContainer className="block lg:hidden">
           <MobileView />
         </SpacingContainer>
-        <SpacingContainer className="pb-8 md:py-10 hidden lg:block">
+        <SpacingContainer className="pb-8 md:py-10 hidden xl:block">
             <DesktopView />
         </SpacingContainer>
     </>

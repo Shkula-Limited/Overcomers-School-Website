@@ -8,8 +8,8 @@ import Twitter from "@/components/ui/icons/Twitter";
 
 const data = [
     {
-      name: "Mrs X X",
-      role: "Principal",
+      name: "Mr Ayodele Micheal",
+      role: "ICT Teacher",
       image: "royal/royal-teacher-1.webp"
     },
     {
@@ -18,8 +18,8 @@ const data = [
       image: "royal/royal-proprietress.webp"
     },
     {
-      name: "Mrs X X",
-      role: "Principal",
+      name: "Mrs Apta",
+      role: "Teacher",
       image: "royal/royal-teacher-1.webp"
     },
     {
