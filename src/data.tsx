@@ -216,21 +216,21 @@ export const data2: d1[] = [
 export const testimonies = [
     {
         testimony: "My child thrived at this school! The teachers are caring and the curriculum is engaging. I'm so grateful for the foundation they've built",
-        testifierName: 'Mrs Apta',
+        testifierName: 'Mrs Apata',
         testifierRole: 'Parent',
         testifierImage: 'royal/royal-teacher-1.webp',
     },
     {
         testimony: "The school's emphasis on character development has been amazing. My child's confidence and kindness have grown exponentially. We're so proud!",
-        testifierName: 'Mr. Akeni',
-        testifierRole: 'Proprietress',
-        testifierImage: 'royal/royal-proprietress.webp',
+        testifierName: 'Mr Adedayo Cyril',
+        testifierRole: 'Principal',
+        testifierImage: 'royal/royal-principal.webp',
     },
     {
         testimony: "The school's support system is incredible. They truly care about each child's well-being and success. We've seen significant improvement in my child's academics and attitude.",
-        testifierName: 'Mr. Fasae',
-        testifierRole: 'Parent',
-        testifierImage: 'royal/royal-teacher-1.webp',
+        testifierName: 'Mrs Oladunjoye',
+        testifierRole: 'Bursar',
+        testifierImage: 'royal/royal-bursar.webp',
     },
     // {
     //     testimony: "Parent Testimony",
@@ -370,22 +370,22 @@ export const howToApplySectionContent = [
 
 export const educatorsData = [
     {
+      name: "Mr Adedayo Cyril Oluwafemi",
+      role: "Principal",
+      image: "royal/royal-principal.webp"
+    },
+    {
       name: "Mr Ayodele Micheal",
       role: "ICT Teacher",
       image: "royal/royal-teacher-2.webp"
     },
     {
-      name: "Mrs Y Y",
-      role: "Proprietress",
-      image: "royal/royal-proprietress.webp"
-    },
-    {
-      name: "Mrs Apta",
+      name: "Mrs Apata",
       role: "Teacher",
       image: "royal/royal-teacher-1.webp"
     },
     {
-      name: "Mrs Y Y",
+      name: "Mrs Ewaoluwa",
       role: "Proprietress",
       image: "royal/royal-proprietress.webp"
     },
