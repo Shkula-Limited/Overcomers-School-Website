@@ -28,7 +28,7 @@ function ProgramCards({name, showCTA, data}: ProgramCardsProps) {
     return (
         <div className="flex flex-col gap-4 md:gap-6 text-center">
             <h2 className="montserrat font-semibold text-24-auto md:poppins md:text-5xl md:text-48-auto">{name}</h2>
-            <div className="grid grid-cols-[minmax(0,391px)] sm:grid-cols-[repeat(2,minmax(0,391px))] gap-5 md:gap-8 justify-center items-center">
+            <div className="grid grid-cols-[minmax(0,391px)] lg:grid-cols-[repeat(3,minmax(0,391px))] gap-5 sm:grid-cols-[repeat(2,minmax(0,391px))] gap-5 md:grid-cols-[repeat(2,minmax(0,391px))] gap-8 justify-center items-center">
                 {
                     data.map(
                         (item, index) => (
