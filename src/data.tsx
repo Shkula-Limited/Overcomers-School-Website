@@ -1,6 +1,6 @@
 
 
-export const viewResultLink = ''  // "https://reportcard.shkula.com?referrer=https://overcomers-school-website.vercel.app"
+export const viewResultLink = "https://reportcard.shkula.com?referrer=https://ewaoluwaroyalschools.shkula.com/"
 export const schoolLogo = 'royal/school_logo.jpeg'
 export const schoolName = 'Ewaoluwa Royal Schools'
 export const schoolTagline = 'Raising Future Leaders'
@@ -385,7 +385,7 @@ export const educatorsData = [
       image: "royal/royal-teacher-1.webp"
     },
     {
-      name: "Mrs Ewaoluwa",
+      name: "Mrs. Talabi Olateju",
       role: "Proprietress",
       image: "royal/royal-proprietress.webp"
     },
