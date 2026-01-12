@@ -81,6 +81,9 @@ export default Section2Content
 
 
 function Content() {
+    const currentYear = new Date().getFullYear()
+    const admissionSession = `${currentYear}/${currentYear + 1}`
+
     return (
         <div className=" pt-32 pb-10 px-3 md:pt-0 md:pb-0 md:px-0 flex gap-6 bg-shkula-primary border-4 border-t-white border-x-0 border-b-0">
             {/* section-2-image for desktop */}
@@ -91,7 +94,7 @@ function Content() {
             {/* section-2-content information */}
             <div className="text-center md:text-start md:self-center md:pt-6 md:pb-[51px] mx-auto">
                 <h2 className="text-white font-bold text-24px lg:text-40px">Apply for <span className="text-shkula-secondary">Admission</span></h2>
-                <p className="montserrat font-normal text-12px md:text-20px md:mt-2 mb-3.5 md:mb-8 lg:mb-11 text-white">Admission into {schoolName} for 2024/2025 session is in progress</p>
+                <p className="montserrat font-normal text-12px md:text-20px md:mt-2 mb-3.5 md:mb-8 lg:mb-11 text-white">Admission into {schoolName} for {admissionSession} session is in progress</p>
                 <div className="max-w-max mx-auto md:mx-0 flex flex-col md:flex-row items-center gap-3 md:gap-4 md2:gap-6 open-sans font-semibold text-xs md2:text-sm leading-[8px] md:leading-4 transition-all duration-500">
                     {/* button-1 */}
                     <a href="#contact-section"><Button className="w-48 h-[30px] md:w-[212px] md2:w-[256px] md:h-14 lg:w-[312px] flex-center-center rounded-2xl md:rounded-32px bg-shkula-secondary md:bg-shkula-primary md:border md:border-white text-schoolcom md:text-white transition-all duration-500 hover:bg-white hover:text-shkula-secondary">Download Application Form</Button></a>
