@@ -1,48 +1,43 @@
 
 
-export const viewResultLink = ''  // "https://reportcard.shkula.com?referrer=https://overcomers-school-website.vercel.app"
-export const schoolLogo = 'royal/school_logo.jpeg'
-export const schoolName = 'Ewaoluwa Royal Schools'
-export const schoolTagline = 'Raising Future Leaders'
+export const viewResultLink = "https://reportcard.shkula.com?referrer=https://tricoll.shkula.com"
+export const schoolLogo = 'school/school_logo.jpg'
+export const schoolName = 'Treasure and Ruby International College'
+export const schoolTagline = 'Building vibrant learning community for every child'
 export const schoolAddress = 'Block C, Plot 1 Civil Defense Estate. IGOBA AKURE North. Ondo State Nigeria'
-export const schoolPhoneNumber = '09036900465'
-export const schoolPhoneNumber2 = '08118570108'
-export const schoolEmail = ''
+export const schoolPhoneNumber = '07066338248'
+export const schoolPhoneNumber2 = '0706 633 8248'
+export const schoolEmail = 'Adeifeoguntade@gmail.com'
 export const schoolSocialMediaLinks = {
     // ensure the social media names are in lowercase
     instagram: "",
-    facebook: "https://web.facebook.com/people/Ewaoluwa-Royal-SchoolsIgoba-Akure/61553014534607/",
+    facebook: "https://web.facebook.com/profile.php?id=100054444041888",
     twitter: "",
     linkedIn: "",
 }
 
-export const certifiedTeachers = '32+'
-export const yearsOld = '10'
-export const numberOfSchools = '2'
-export const latestNewsSectionImage = 'royal/royal-admission-image.webp' // section-2-image.png
+export const certifiedTeachers = '20+'
+export const yearsOld = '6'
+export const numberOfSchools = '1'
+export const latestNewsSectionImage = 'school/admission-image.webp' // section-2-image.png
 
 
 export const schoolOverviewInParagraphs = <>
     <p>
         <span>
-            It is my pleasure to extend a very warm welcome to you! Thank you for visiting our website. We are a mixed, co-educational Christian school for boys and girls from across Nigeria. 
+            It is my pleasure to extend a very warm welcome to you! Thank you for visiting our website. We are a mixed, co-educational school for boys and girls from across Nigeria. 
         </span>
     </p>
     <p>
         <span>
-            Our secondary school, established in 2018 is full boarding and day .. primary school, established in 2015  offers both day and boarding.
-        </span>
-    </p>
-    <p>
-        <span>
-            The school benefits from a wide range of superb facilities which include  Conducive environment, well ventilated classrooms, Qualified teachers & staffs, well equipped Computer Laboratory, well equipped Science Laboratory, standard Sporting Facilities and recreational facilities which make life at school home away from home.
+            In our school, you benefits from a wide range of superb facilities which include  Conducive environment, well ventilated classrooms, Qualified teachers & staffs, well equipped Computer Laboratory, well equipped Science Laboratory, standard Sporting Facilities and recreational facilities which make life at school home away from home.
         </span>
     </p>
 </>
 
-export const schoolOverview = "Our secondary school, established in 2018 is full boarding and day .. primary school, established in 2015  offers both day and boarding. The school benefits from a wide range of superb facilities which include  Conducive environment, well ventilated classrooms, Qualified teachers & staffs"
-export const schoolVision = "Our vision is to cultivate a community of curious, creative, and compassionate learners who excel academically and make a positive impact in the world. "
-export const schoolMission = "Our mission is to lead holistic, inclusive, innovative world-class education in Nigeria For this reason, we have adopted different approaches and tools that make learning enjoyable for our students. "
+export const schoolOverview = "Our secondary school, established in 2020 is day only. The school benefits from a wide range of superb facilities which include  Conducive environment, well ventilated classrooms, Qualified teachers & staffs"
+export const schoolVision = "To be a leading international college that transforms students into exceptional global thinkers polished like rubies, valued like treasures, and equipped to positively impact the world.” Or To develop responsible, resilient, and globally minded young leaders who excel academically, grow in character, and contribute positively to society"
+export const schoolMission = "To equip students with the knowledge, skills, and character needed for success in a competitive world through rigorous academics, creative learning, and disciplined personal growth.” or To nurture globally minded, confident, and innovative learners by providing world-class education, strong moral guidance, and opportunities that empower every student to excel academically and stand out as a treasure to society"
 export const schoolCoreValues = "Honesty, Dedication, Faithfulness, Hard work, Love, Discipline, Truthfulness, Joy"
 
 
@@ -52,7 +47,7 @@ export const aboutUsComponent2Data = [
         label: "Misson",
         content: <>
             <p>
-                To provide a supportive and inclusive learning environment that fosters academic excellence, personal growth, and social responsibility, preparing students to succeed in an ever-changing world.
+                To equip students with the knowledge, skills, and character needed for success in a competitive world through rigorous academics, creative learning, and disciplined personal growth.” or To nurture globally minded, confident, and innovative learners by providing world-class education, strong moral guidance, and opportunities that empower every student to excel academically and stand out as a treasure to society.
             </p>
         </>
     },
@@ -61,7 +56,7 @@ export const aboutUsComponent2Data = [
         label: "Vison",
         content: <>
             <p>
-            To be a premier college, recognized for its commitment to academic rigor, innovative teaching practices, and the development of well- roundea, compassionate, and globally - minded individuals who make positive impacts in their respective communities.
+            To be a leading international college that transforms students into exceptional global thinkers polished like rubies, valued like treasures, and equipped to positively impact the world.” Or To develop responsible, resilient, and globally minded young leaders who excel academically, grow in character, and contribute positively to society.
             </p>
         </>
     },
@@ -111,24 +106,26 @@ export const aboutUsComponent2Data = [
 
 
 export const bannerImages = [
-    'royal/royal-banner-image-1.webp',
-    'royal/royal-banner-image-2.webp',
-    'royal/royal-banner-image-3.webp',
-    'royal/royal-banner-image-4.webp',
-    'royal/royal-banner-image-5.webp',
-    //     'section-6-img-10.jpeg',
-    //     'section-6-img-9.jpeg',
-    //     'section-6-img-7.jpeg',
-    //     'section-6-img-6.jpeg',
-    //     'section-6-img-11.jpeg',
-]
+    'school/banner-image-1.webp',
+    'school/banner-image-2.webp',
+    'school/banner-image-3.webp',
+    'school/banner-image-4.webp',
+    'school/banner-image-5.webp',
+    'school/banner-image-6.webp',
+ ]
 
 export const aboutUsImages = [
-    'royal/royal-biology-lab.webp',
-    'royal/royal-physics-lab.webp',
-    'royal/royal-school-library.webp',
-    'royal/royal-sick-bay.webp',
-    'royal/royal-front-view-academic-building.webp',
+    'school/banner-image-3.webp',
+    'school/banner-image-5.webp',
+       'school/banner-image-1.webp',
+    'school/banner-image-2.webp',
+    'school/banner-image-4.webp',
+    'school/banner-image-6.webp',
+    // 'royal/royal-biology-lab.webp',
+    // 'royal/royal-physics-lab.webp',
+    // 'royal/royal-school-library.webp',
+    // 'royal/royal-sick-bay.webp',
+    // 'royal/royal-front-view-academic-building.webp',
     // "about-us-img.png",
     // "section-2-image-2.png",
 ]
@@ -153,17 +150,17 @@ export const data1: d1[] = [
     // },
     {
         title: "Primary School",
-        image: "royal/royal-primary-school.webp",
+        image: "school/banner-image-5.webp",
         description: "Building a strong foundation for learning. Our primary school nurtures young minds through a balanced curriculum, creativity, and values-driven education."
     },
     {
         title: "Junior Secondary School",
-        image: "royal/royal-junior-secondary-school.webp",
+        image: "school/banner-image-6.webp",
         description: "Building Foundations, Shaping Futures. Our junior secondary school equips students with essential knowledge, skills and values for academic excellence."
     },
     {
         title: "Senior Secondary School",
-        image: "royal/royal-senior-secondary-school.webp",
+        image: "school/banner-image-4.webp",
         description: "Empowering Leaders, Shaping Destiny. Our senior secondary school prepares students for higher education, entrepreneurship and global citizenship."
     }
 ]
@@ -191,13 +188,13 @@ export const data2: d1[] = [
     //     },
         {
             title: "Cultural Day",
-            image: "royal/royal-cultural-day.webp",
+            image: "school/banner-image-1.webp",
             description: "An immersive celebration where students experience and appreciate different cultures through performances, food, and activities."
         },
         {
             title: "Excursion",
             description: "Bringing learning to life with exciting field trips that connect students to Nigeria’s history, nature, and communities.",
-            image: "royal/royal-excursion.webp"
+            image: "school/banner-image-5.webp"
         },
         // {
         //     title: "Career Day",
@@ -215,22 +212,22 @@ export const data2: d1[] = [
 
 export const testimonies = [
     {
-        testimony: "My child thrived at this school! The teachers are caring and the curriculum is engaging. I'm so grateful for the foundation they've built",
-        testifierName: 'Mrs Apata',
+        testimony: "Our child thrived at this school! The teachers are caring and the curriculum is engaging. I'm so grateful for the foundation they've built",
+        testifierName: 'Mr Samuel and Mrs Ifeoluwa Oguntade',
         testifierRole: 'Parent',
-        testifierImage: 'royal/royal-teacher-1.webp',
+        testifierImage: 'school/parent-1.webp',
     },
     {
         testimony: "The school's emphasis on character development has been amazing. My child's confidence and kindness have grown exponentially. We're so proud!",
         testifierName: 'Mr Adedayo Cyril',
         testifierRole: 'Principal',
-        testifierImage: 'royal/royal-principal.webp',
+        testifierImage: 'school/proprietress.webp',
     },
     {
         testimony: "The school's support system is incredible. They truly care about each child's well-being and success. We've seen significant improvement in my child's academics and attitude.",
         testifierName: 'Mrs Oladunjoye',
-        testifierRole: 'Bursar',
-        testifierImage: 'royal/royal-bursar.webp',
+        testifierRole: 'Parent',
+        testifierImage: 'school/royal-bursar.webp',
     },
     // {
     //     testimony: "Parent Testimony",
@@ -372,22 +369,22 @@ export const educatorsData = [
     {
       name: "Mr Adedayo Cyril Oluwafemi",
       role: "Principal",
-      image: "royal/royal-principal.webp"
+      image: "school/royal-principal.webp"
     },
     {
-      name: "Mr Ayodele Micheal",
-      role: "ICT Teacher",
-      image: "royal/royal-teacher-2.webp"
-    },
-    {
-      name: "Mrs Apata",
+      name: "Mrs Ifeoluwa Ogunlade",
       role: "Teacher",
-      image: "royal/royal-teacher-1.webp"
+      image: "school/teacher-1.webp"
     },
     {
-      name: "Mrs Ewaoluwa",
-      role: "Proprietress",
-      image: "royal/royal-proprietress.webp"
+        name: "Mrs Ifeoluwa Ogunlade",
+        role: "Proprietress",
+        image: "school/proprietress.webp"
+    },
+    {
+      name: "Mrs Ifeoluwa Ogunlade",
+      role: "Teacher",
+      image: "school/teacher-1.webp"
     },
     // {
     //   name: "Kelechi Okafor",
@@ -466,7 +463,7 @@ export const footerLinksData = [
             },
             {
                 label: "Facebook",
-                linkTo: "https://facebook.com"
+                linkTo: "https://web.facebook.com/profile.php?id=100054444041888"
             }
         ]
     }
